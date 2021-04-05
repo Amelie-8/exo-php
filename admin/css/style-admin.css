@@ -1,0 +1,27 @@
+
+.modal.modal-log{
+    display: block;
+}
+.modal-dialog{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+}
+#pseudoFile{
+    position: absolute;
+    font-size: 0.9rem;
+    left: 10px;
+    bottom: 2px;
+  
+}
+.noAction{
+    pointer-events: none;
+}
+.td-img{
+    width: 20%;
+}
+.img-update{
+    max-width: 200px;
+}

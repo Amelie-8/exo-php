@@ -1,0 +1,114 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+}
+.carousel-caption h5{
+    font-size: 4.75rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #000000;
+}
+.carousel-caption p{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+#contenu h2{
+    margin-top: 4.56rem ;
+    color: #b3b3bb;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+#contenu hr{
+    margin: 26px auto 52 px auto;
+    width: 60px;
+    border-top: 3px solid rgb(202, 200, 200);
+
+}
+.bg-about{
+    background-color: #a6a6a8; 
+    border: 1px solid #d0d0d4;
+    text-align: center;
+    width: 100%;
+    
+}
+.bg-about .fa{
+    color: white;
+    font-size: 4rem;
+    margin: 35px 0;
+}
+.bg-about h4{
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+}
+.bg-about p{
+    font-size: 0.875rem;
+    color: #e7e3e3;
+    font-weight: 300;
+}
+/*override boostrap*/
+.navbar-toggler, .bg-yellow {
+    background-color: #fcbe03;
+}
+.carousel-caption {
+    width: 76%;
+    right: initial;
+    bottom: initial;
+    left : 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.bg-photo{
+    width: 23.75rem ;
+    border: solid white 1px;
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media  (max-width: 575.98px){ 
+.carousel-caption h5{
+        font-size: 1.75rem;
+        
+    }
+.carousel-caption p{
+        font-size: 0.9rem;
+        
+    }
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px){  
+.carousel-caption h5{
+    font-size: 2.5rem;
+    
+}
+.carousel-caption p{
+    font-size: 1.3rem;
+    
+}
+
+
+/*Medium devices (tablets, less than 992px)*/
+@media ((min-width: 768px) and (max-width: 991.98px){
+.carousel-caption h5{
+        font-size: 3.5rem;
+        
+    }
+.carousel-caption p{
+        font-size: 1.5rem;
+        
+    }
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+.carousel-caption h5{
+    font-size: 4em;
+    
+}
+.carousel-caption p{
+    font-size: 1.65rem;
+    
+}
+}
+
